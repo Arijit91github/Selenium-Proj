@@ -59,7 +59,7 @@ public class LoginToInstagram {
 			System.setProperty("webdriver.edge.driver", ".\\src\\test\\resources\\Drivers\\msedgedriver.exe");
 			driver = new EdgeDriver();
 		}
-
+       System.out.println("Browser is launched");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.get(config.getProperty("Application_URL"));
