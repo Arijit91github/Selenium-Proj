@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCases2.CreateAnAccountToMyStore">
+        <methods>
+          <include name="createAnAccountToMyStore" invocation-numbers="0"/>
+          <include name="generateReport"/>
+          <include name="getClassName"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- testCases2.CreateAnAccountToMyStore -->
+      <class name="testCases2.LoginWithRegisteredUser2">
+        <methods>
+          <include name="loginWithRegisteredUser2" invocation-numbers="0"/>
+          <include name="generateReport"/>
+          <include name="getClassName"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- testCases2.LoginWithRegisteredUser2 -->
+      <class name="testCases2.LoginWithRegisteredUser">
+        <methods>
+          <include name="generateReport"/>
+          <include name="loginWithRegisteredUser" invocation-numbers="0"/>
+          <include name="getClassName"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- testCases2.LoginWithRegisteredUser -->
+      <class name="testCases2.CreateAnAccountToMyStore3">
+        <methods>
+          <include name="generateReport"/>
+          <include name="createAnAccountToMyStore3" invocation-numbers="0"/>
+          <include name="getClassName"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- testCases2.CreateAnAccountToMyStore3 -->
+      <class name="testCases2.CreateAnAccountToMyStore2">
+        <methods>
+          <include name="generateReport"/>
+          <include name="getClassName"/>
+          <include name="createAnAccountToMyStore2" invocation-numbers="0"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- testCases2.CreateAnAccountToMyStore2 -->
+      <class name="testCases2.CreateAnAccountToMyStore4">
+        <methods>
+          <include name="createAnAccountToMyStore4" invocation-numbers="0"/>
+          <include name="generateReport"/>
+          <include name="initialization"/>
+          <include name="getClassName"/>
+        </methods>
+      </class> <!-- testCases2.CreateAnAccountToMyStore4 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

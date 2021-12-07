@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite]">
+  <listeners>
+    <listener class-name="listeners.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="FundTransfer(failed)">
+    <classes>
+      <class name="testCases2.EndToEndTestCase">
+        <methods>
+          <include name="generateReport"/>
+          <include name="getClassName"/>
+          <include name="endToEndTestCase" invocation-numbers="0"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- testCases2.EndToEndTestCase -->
+    </classes>
+  </test> <!-- FundTransfer(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
